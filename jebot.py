@@ -1,4 +1,4 @@
-#    Copyright (c) 2021 Infinity BOTs <https://t.me/Infinity_BOTs>
+#    Copyright (c) 2021 Infinity BOTs <https://t.me/sdprojectupdates>
  
 #    This program is free software: you can redistribute it and/or modify  
 #    it under the terms of the GNU General Public License as published by  
@@ -61,7 +61,7 @@ async def start(client, message):
    if message.chat.type == 'private':
        await bot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hey There, I'm a File Renamer Bot With Permanent Thumbnail Support!
+               text="""<b>🔥  Hey There, I'm a File Renamer Bot With Permanent Thumbnail Support 😋 My Master Is A Ominda😉!
 
 Made by @ImJanindu 🇱🇰
 
@@ -71,10 +71,10 @@ Hit help button to find out more about how to use me</b>""",
                                         InlineKeyboardButton(
                                             "Help", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Channel", url="https://t.me/Infinity_BOTs"),
+                                            "📢Channel📢", url="https://t.me/Infinity_BOTs"),
                                  ],[
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/File-Renamer-Bot")
+                                            "🌟 Developer 🌟", url="https://t.me/omindas")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -94,16 +94,16 @@ async def help(client, message):
 
 👉 Finally reply file with <code>/rename NewFile.extension</code>
 
-~ @Infinity_BOTs</b>""",
+~ @omindas</b>""",
     reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Back", callback_data="start"),
+                                            "🔙Back🔙", callback_data="start"),
                                         InlineKeyboardButton(
-                                            "About", callback_data="about"),
+                                            "⚠️️About⚠️️", callback_data="about"),
                                   ],[
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/File-Renamer-Bot")
+                                            "🔴Source Code🔴", url="https://github.com/omindadelshan/File-Renamer-Bot")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -116,19 +116,19 @@ async def about(client, message):
                chat_id=message.chat.id,
                text="""<b>About File Renamer!</b>
 
-<b>♞ Developer:</b> <a href="https://t.me/ImJanindu">Janindu 🇱🇰</a>
+<b>♞ Developer:</b> <a href="https://t.me/omindas">Ominda 🇱🇰</a>
 
-<b>♞ Support:</b> <a href="https://t.me/InfinityBOTs_Support">Infinity BOTs Support</a>
+<b>♞ Support:</b> <a href="https://t.me/sdprojectupdates">Support Channal</a>
 
 <b>♞ Library:</b> <a href="https://github.com/pyrogram/pyrogram">Pyrogram</a>
 
-<b>~ @Infinity_BOTs</b>""",
+<b>~ @sdprojectupdates</b>""",
      reply_markup=InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(
-                                            "Back", callback_data="help"),
+                                            "🔙Back🔙", callback_data="help"),
                                         InlineKeyboardButton(
-                                            "Source Code", url="https://github.com/ImJanindu/File-Renamer-Bot")
+                                            "🔴Source Code🔴", url="https://github.com/omindadelshan/File-Renamer-Bot")
                                     ]]
                             ),        
             disable_web_page_preview=True,        
@@ -250,7 +250,7 @@ async def button(bot, update):
 print(
     """
 Bot Started!
-Join @Infinity_BOTs
+Join @sdprojectupdates
 """
 )
 
